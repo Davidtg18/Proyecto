@@ -5,17 +5,15 @@ int main()
 	int Factura;
     int CantidadProductos;
     int TipoProducto;
-	double Precio; 
+    double Precio; 
     double SubTotal;
     double Descuento;
     double TotalPagar;
 
 	string Cliente;
-
 	SubTotal = Precio*CantidadProductos;
 	Descuento = SubTotal*TipoProducto;
 	TotalPagar = SubTotal - Descuento;
-	
 	
      int opcion;
      do{
